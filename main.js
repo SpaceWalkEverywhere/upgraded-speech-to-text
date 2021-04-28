@@ -24,3 +24,4 @@ function speak(){
     pls_utter= new SpeechSynthesisUtterance(predsp1+predsp2);
     speakk.speak(pls_utter);
 }
+cameraaa="webcam starrrrrrrrrrrrrrrrt"
