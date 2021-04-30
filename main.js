@@ -40,22 +40,22 @@ function gr(error,result) {
         pr2=result[1].label;
         speak()
         if(pr1=="Happy"){
-            document.getElementById("upd_emg1").innerHTML="<span>&#128514</span>";
+            document.getElementById("upd-emg1").innerHTML="<span>&#128514</span>";
         }
         else if(pr1=="Sad"){
-            document.getElementById("upd_emg1").innerHTML="&#128550";
+            document.getElementById("upd-emg1").innerHTML="&#128550";
         }
         else if(pr1=="Angry"){
-            document.getElementById("upd_emg1").innerHTML="&#128545";
+            document.getElementById("upd-emg1").innerHTML="&#128545";
         }
         if(pr2=="Happy"){
-            document.getElementById("upd_emg2").innerHTML="&#128514";
+            document.getElementById("upd-emg2").innerHTML="&#128514";
         }
         else if(pr2=="Sad"){
-            document.getElementById("upd_emg2").innerHTML="&#128550";
+            document.getElementById("upd-emg2").innerHTML="&#128550";
         }
         else if(pr2=="Angry"){
-            document.getElementById("upd_emg2").innerHTML="&#128545";
+            document.getElementById("upd-emg2").innerHTML="&#128545";
         }
     }
 }
